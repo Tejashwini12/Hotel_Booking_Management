@@ -11,7 +11,7 @@ To get started, clone this repository and install the required dependencies:
 
 ```bash
 git clone [<repository-url>](https://github.com/Tejashwini12/Hotel_Booking_Management.git)
-cd test_Booking
+cd Hotel_Booking_Management/test_Booking
 pip install -r requirements.txt
 ```
 
