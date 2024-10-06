@@ -10,7 +10,7 @@ To get started, clone this repository and install the required dependencies:
 
 ```bash
 git clone [<repository-url>](https://github.com/Tejashwini12/Hotel_Booking_Management.git)
-cd test_Booking
+cd  Hotel_Booking_Management/test_Booking
 pip install -r requirements.txt
 ```
 
@@ -111,6 +111,18 @@ To run the tests, use the following command:
 
 ```bash
 behave
+```
+Note in case you get module not found error like below, please export the path
+
+```bash
+ModuleNotFoundError: No module named 'test_Booking'
+```
+please export the path 
+
+```bash
+(virtualenv) tn@tn-mbp test_Booking % export PYTHONPATH=$PYTHONPATH:/path/to/your/project
+example:-
+export PYTHONPATH=$PYTHONPATH:/Users/tn/Downloads/Pytest_framework-main
 ```
 
 You can specify the path to a specific feature or scenario if needed:
