@@ -113,6 +113,18 @@ To run the tests, use the following command:
 ```bash
 behave
 ```
+Note in case you get module not found error like below, please export the path
+
+```bash
+ModuleNotFoundError: No module named 'test_Booking'
+```
+please export the path 
+
+```bash
+(virtualenv) tn@tn-mbp test_Booking % export PYTHONPATH=$PYTHONPATH:/path/to/your/project
+example:-
+export PYTHONPATH=$PYTHONPATH:/Users/tn/Downloads/Pytest_framework-main
+```
 
 You can specify the path to a specific feature or scenario if needed:
 
